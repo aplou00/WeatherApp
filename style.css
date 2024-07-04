@@ -213,10 +213,14 @@ img {
 
 .value-det1, .value-det2, .value-det3, .value-det5 {
     padding: 10px;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 #value-det4 {
     padding: 10px;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .sun-times {
@@ -231,6 +235,22 @@ img {
     padding: 10px 0;
     text-align: center;
     
+}
+
+.name1, .name2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.timerise, .timeset {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.name-det1, .name-det2, .name-det3, .name-det4, .name-det5 {
+    font-size: 14px;
+    font-weight: 400;
+
 }
 
 
