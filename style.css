@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: url(img/Background.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body, div {
+    width: 100%;
+    height: 100%;
+}
+
+
+img {
+    display: block;
+    height: auto;
+    width: 110px;
+    margin: 0 auto;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.weather_inner {
+    align-items: center;
+    padding: 20px 0;
+}
+
+.this-day-info {
+    margin-left: 47%;
+    width: 214px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 96px;
+    font-weight: 300;
+}
+
+
+.city {
+    font-size: 36px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50%;
+    width: 131px;
+    height: 47px;
+}
+
+.temperature {
+    font-size: 96px;
+    font-weight: 300;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    margin-left: 50%;
+    width: 111px;
+    height: 31px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.text-forecast{
+    padding-top: 30px;
+    width: 97px;
+    height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+   
+}
+
+.text-det{
+
+    
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-self: start;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+
+#day1, #day2, #day3, #day4, #day5, #day6, #day7 {
+    width: 128px;
+    height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.day-temp {
+    display: flex;
+}
+
+.this-day-det-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.this-day-det {
+    width: 50%;
+    margin-right: 50%;
+    height: 50%;
+    display: flex;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; 
+    flex-wrap: wrap;
+}
+
+
+
+.container-temp-now-min {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.day-temp1, .day-temp2, .day-temp3, .day-temp4, .day-temp5, .day-temp6, .day-temp7 {
+    width: 36px;
+    height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 35px;
+}
+
+.min-temp1, .min-temp2, .min-temp3, .min-temp4, .min-temp5, .min-temp6, .min-temp7 {
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 17px;
+    height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5); /* Белый цвет с 50% прозрачностью */
+}
+
+.day1-icon {
+    width: 128px;
+    height: 128px;
+}
+
+.det-box4 {
+    padding: 30px 0;
+    width: 300px;
+    text-align: center;
+   justify-content: left;
+  
+}
+
+.det-box1, .det-box2, .det-box3, .det-box4, .det-box5 {
+    padding: 30px 0;
+    width: 300px;
+    text-align: center;
+    justify-self: start;
+}
+
+.det-box1, .det-box2, .det-box3 {
+    grid-row: 1;
+}
+
+.det-box4 {
+    grid-row: 2;
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.value-det1, .value-det2, .value-det3, .value-det5 {
+    padding: 10px;
+}
+
+#value-det4 {
+    padding: 10px;
+}
+
+.sun-times {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20%;
+    margin-top: -100px; 
+}
+.Rise, .Set {
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+
+
+
